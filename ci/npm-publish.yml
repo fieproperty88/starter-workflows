@@ -1,45 +1,41 @@
-name: Node.js Package
+name : #*FIE PROPERTY*on : #Jasa konsultasi Produck Projerti and LISTING Sewa & Jual Properti
+  release : #*PRODUCK PROPERTI DISEWAKAN DAN DIJUAL*
+    -run : [GREEN=PRAMUKA+CITY]
+    -run : [BASURRA+CITY]
+    -run : [ANCOL+MENSION]
+jobs : KONSULTAN MANAJEMEN PROPERTY
+  build-on : 
+     -run : AGENSI PROPERTI
+     -run : BISNIS INVESTASI KAPITAL GEIN
+     -run : KONSULTAN LISTING PROPERTI
+    runs-on: ubuntu-latest
+    steps: #Bergabung Bersama FIE PROPERTY
+      - uses : actions/checkout@v2
+        - secrets = ["GITHUB_TOKEN"]
+      - uses : actions/setup-node@v1
+        - secrets = ["GITHUB_TOKEN"]
+      - needs : "Filters Labeled Issues
+      - args = "--accept application -- + FIE PROPERTY + 
+        github/graphql_action/pinnedissues.query.yaml
+        --BISNIS PROPERTI--AGENT--FIAN github-graphql-action"  publish-npm : #*FIE PROPERTY*
+    uses = ADMIN FIE PROPRTY CALL/WA KONTAK PERSON +6281317957189
+    runs-on: ubuntu-latest
+      - steps:["GITHUB_TOKEN"]
+     - uses: actions/checkout@v2
+      - steps:["GITHUB_TOKEN"]
+     - uses: actions/setup-node@v1
+       - args = "--accept application -- + FIE PROPERTY + 
+        github/graphql_action/pinnedissues.query.yaml
+        --BISNIS PROPERTI--AGENT--FIAN github-graphql-action"
+       
+     
+      - run: npm ci #*FIE PROPERTY*
+      - run: npm publish"--accept application github/graphql_action/pinnedissues.query.yaml --FIEPROPERTY
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-on:
-  release:
-    types: [created]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm ci
-      - run: npm test
+Pada tanggal Sen, 17 Feb 2020 pukul 17.02 Fian Property <fianproperty88@gmail.com> menulis:
+https://github.com/fieproperty88/Fie-Property-/actions
 
-  publish-npm:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/
-          scope: '@your-github-username'
-      - run: npm ci
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+Dikirim dari Ponsel Huawei saya
